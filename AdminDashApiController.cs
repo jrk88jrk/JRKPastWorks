@@ -1,20 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
-using Sabio.Models.Domain;
-using Sabio.Services;
-using Sabio.Web.Models.Responses;
-using Sabio.Web.Controllers;
-using Sabio.Models;
 
 
 
-namespace Sabio.Web.Api.Controllers
-{
+
 	[Route("api/AdminDash")]
 	[ApiController]
 	public class AdminDashApiController : BaseApiController
@@ -132,4 +119,4 @@ namespace Sabio.Web.Api.Controllers
 			return StatusCode(iCode, response);
 		}
 	} 
-}
+
